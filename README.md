@@ -1,27 +1,31 @@
 # ArrayMappingCalculator
-
+```
 Program dibuat dari Matkul Struktur Data
 Program akan menghitung Mapping Array Dimensi 1, 2, dan 3.
+```
 
----------------------------------------------------------------------------------------------------------
-                                                Rumus Array Dimensi 1
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        Rumus Array Dimensi 1
+```
 Rumus : @A[i] = B + (i – 1) * L
+
 Keterangan :
   @A[i] : Posisi Array yg dicari
   B : Posisi awal index di memory komputer
   i : Subkrip atau indeks array yg dicari
   L : Ukuran / Besar memory suatu type data
-
+  
   Contoh :
 A[3].....
           = 0011(H) + (3 - 1) * 2
           = 0011(H) + 4(D)
           = 0011(H) + 4(H)
           = 0015(H)
+```
 
----------------------------------------------------------------------------------------------------------
-                                                Rumus Array Dimensi 2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        Rumus Array Dimensi 2
+```
 Rumus1 : Secara Baris Per Baris (Row Major Order / RMO)
 @M[i][j]  = M[0][0] + ((j - 1) * N + (i - 1)) * L
 
@@ -36,7 +40,7 @@ Keterangan :
   L = Ukuran memory type data
   K = Banyaknya elemen per kolom
   N = Banyaknya elemen per baris
-
+  
   Contoh :
 Rumus1 : Secara Baris Per Baris (Row Major Order / RMO)
 @M[i][j]  = M[0][0] + ((j - 1) * N + (i - 1)) * L
@@ -54,9 +58,11 @@ A[3][2]..... Secara Kolom Per Kolom (Coloumn Major Order/CMO)
           = 0011(H) + 10(D)
           = 0011(H) + A(H)
           = 0011(H)
-          
----------------------------------------------------------------------------------------------------------
-                                                Rumus Array Dimensi 3
+```
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+                                                        Rumus Array Dimensi 3
+
 @M[m][n][p]   = M[0][0][0] + (((m-1) *(jum.elemen2 *jum.elemen3)) + ((n-1)*(jum.elemen3)) + ((p-1))* L
 
 Keterangan :
@@ -69,12 +75,14 @@ Keterangan :
   p = Lokasi index 3 
   L: Ukuran / Besar memory suatu type data 
 
+
   Contoh :
 A[2][3][2].....
               = 0021(H) + (((2 - 1) * (3 * 4)) + ((3 - 1) * 4) + (2 - 1)) * 4
               = 0021(H) + (12 + 8 + 1) * 4
               = 0021(H) + 84(D)
               = 0021(H) + 54(H)
-              = 0075(H)
+              = 0075(H
+```
 ---------------------------------------------------------------------------------------------------------
            
