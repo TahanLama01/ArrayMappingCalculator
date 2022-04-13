@@ -4,7 +4,7 @@ Program dibuat dari Matkul Struktur Data
 Program akan menghitung Mapping Array Dimensi 1, 2, dan 3.
 
 ---------------------------------------------------------------------------------------------------------
-                                        Rumus Array Dimensi 1
+                                                Rumus Array Dimensi 1
 
 Rumus : @A[i] = B + (i – 1) * L
 Keterangan :
@@ -21,7 +21,7 @@ A[3].....
           = 0015(H)
 
 ---------------------------------------------------------------------------------------------------------
-                                        Rumus Array Dimensi 2
+                                                Rumus Array Dimensi 2
 Rumus1 : Secara Baris Per Baris (Row Major Order / RMO)
 @M[i][j]  = M[0][0] + ((j - 1) * N + (i - 1)) * L
 
@@ -56,7 +56,7 @@ A[3][2]..... Secara Kolom Per Kolom (Coloumn Major Order/CMO)
           = 0011(H)
           
 ---------------------------------------------------------------------------------------------------------
-                                        Rumus Array Dimensi 3
+                                                Rumus Array Dimensi 3
 @M[m][n][p]   = M[0][0][0] + (((m-1) *(jum.elemen2 *jum.elemen3)) + ((n-1)*(jum.elemen3)) + ((p-1))* L
 
 Keterangan :
